@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+        }
+        .outerbox {
+            width: 350px;
+            height: 200px;
+            display: inline-block;
+        }
+
+        #redbox {
+            background: red;
+        }
+
+        #bluebox {
+            background: blue;
+        }
+
+        .blackbox {
+            width: 100px;
+            height: 100px;
+            background: black;
+            display: inline-block;
+            margin: 50px;
+        }
+
+        .right {
+            margin-left: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="redbox" class="outerbox">
+        <div class="blackbox"></div><div class="blackbox right"></div>
+    </div><div id="bluebox" class="outerbox">
+        <div class="blackbox"></div><div class="blackbox right"></div>
+    </div>
+</body>
+</html>
